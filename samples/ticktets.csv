@@ -1,0 +1,6 @@
+Ticket_ID,severity,Status,Title,Description
+INC-1001,CRITICAL,OPEN,Unauthorized Root Access Attempt,Multiple failed SSH login attempts detected from external IP 198.51.100.42 targeting production bastion host.
+INC-1002,HIGH,OPEN,Outbound C2 Beaconing Signature,EDR telemetry flagged suspicious HTTP POST requests from finance workstation WK-FIN-09 to known malicious domain.
+INC-1003,MEDIUM,RESOLVED,Expired SSL Certificate on Internal Portal,Internal IT documentation portal threw untrusted cert warnings; automated renewal script failed due to expired IAM token.
+INC-1004,LOW,OPEN,Port Scan Activity Detected,Firewall logs show systematic TCP SYN scanning across ephemeral port range from internal testing VLAN.
+INC-1005,CRITICAL,OPEN,Credential Dumping Tool Execution,Defender for Endpoint isolated workstation WK-HR-14 after Mimikatz process execution attempt was blocked in memory.

@@ -1,0 +1,8 @@
+Ticket_ID,Severity,Status,Title,Description
+INC-3001,Critical,OPEN,Active Ransomware Staging on Finance File Server,EDR reported mass file encryption activity on \\srv-fin-02\shares. Suspicious executable running from AppData. Host isolated immediately; active user session terminated. Forensics ongoing.
+INC-3002,High,OPEN,Brute Force Attack Against Domain Controller,SIEM triggered high-frequency Kerberos pre-auth failures from IP 192.168.40.12. Source IP temporarily rate-limited; account lockout threshold reached for 4 service accounts.
+INC-3003,Medium,Closed,Phishing Credential Harvesting Link Clicked,"User in marketing clicked external link mimicking corporate SSO page. Credentials entered, but token reuse prevented by MFA prompt. Password forced-reset and session revoked."
+INC-3004,Low,Closed,Unauthorized Port Scan from External Partner IP,External scan detected targeting perimeter firewall ports 80/443 from known partner subnet. Verified against approved maintenance window schedule; benign activity confirmed and ticket closed.
+INC-3005,Critical,OPEN,Cobalt Strike Beacon Outbound C2 Connection,EDR flagged suspicious HTTPS beaconing to known threat intel IOC (IP 185.220.101.5). Host isolated via network containment policy. Memory dump captured for tier-3 analysis.
+INC-3006,Medium,OPEN,Suspicious PowerShell Execution by Local Service Account,Local service account executed obfuscated PowerShell command string invoking Invoke-Expression. Investigating script origin and parent process tree; execution blocked by AMSI.
+INC-3007,Low,Closed,Outdated SSL/TLS Cipher Suite Detected on Edge Proxy,Vulnerability scanner identified TLS 1.0 support on legacy web proxy. Notified infrastructure team to schedule cipher deprecation during upcoming change window.
