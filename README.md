@@ -2,7 +2,7 @@
 
 > 🔗 **Live Demo Endpoint:** [View Live SOC Shift Handoff Report](http://amzn-s3-mock-web-host.s3-website.us-east-2.amazonaws.com/)
 
-(report_snippet.png)
+!(report_snippet.png)
 
 An event-driven AWS serverless security automation pipeline designed to streamline SecOps shift handoffs. When incident ticket CSV exports are uploaded to an ingestion bucket, AWS Lambda parses active alerts, queries OpenAI via AWS Secrets Manager for executive threat summaries, and generates a responsive, dark-mode SOC shift handoff report hosted on Amazon S3.
 
