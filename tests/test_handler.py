@@ -1,4 +1,4 @@
-from lambd_fuctions.handler import lambda_handler
+from lambda_fuction import lambda_handler
 
 def test_lambda_handler():
     # Mock event and context
